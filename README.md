@@ -2,7 +2,7 @@
 A lightweight NLP system for sentiment classification of movie reviews, trained on IMDb data.
 
 # Project Goal
-Build a resource-efficient transformer-based model to classify movie reviews as positive/negative, optimized for limited compute.
+Build a resource-efficient transformer-based model to classify movie reviews as positive/negative.
 
 # Key Features
 ✅ Custom-trained on IMDb dataset tokenizer
@@ -19,7 +19,7 @@ Matches traditional ML models
 
 Accuracy: 86% on test IMDb (vs. 90%+ for SOTA)
 
-Domain Shift Challenge: Performance drops on older data (see Report)
+Lowered performance on other datasets (see Report)
 
 # Repository Structure
 
@@ -58,3 +58,31 @@ movie-reviews/
 
 └── report.pdf          # Detailed methodology/results
 
+# Quick Start
+1. Installation
+   
+git clone https://github.com/shevchukum/movie-reviews.git
+
+cd movie-reviews
+
+pip install -r requirements.txt
+
+2. Run the Pipeline
+   
+01_data_preprocessing.ipynb	-> Clean data & train tokenizer	-> CPU
+
+02_MLM_training.ipynb	Pretrain -> MLM	-> GPU
+
+03_classifier_training.ipynb	-> Fine-tune classifier	-> GPU
+
+04_evaluation.ipynb	-> Evaluate on all datasets	-> CPU/GPU
+
+# Accuracy Table:
+
+IMDb (Test)	-> 86.1%
+
+SST-2	      -> 44.5%
+
+Amazon	    -> 50.8%
+
+MB          -> 77.2%
