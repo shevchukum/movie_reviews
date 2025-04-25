@@ -1,8 +1,7 @@
 # Movie Review Sentiment Analysis
 A lightweight NLP system for sentiment classification of movie reviews, trained on IMDb data.
 
-# Project Goal
-Build a resource-efficient transformer-based model to classify movie reviews as positive/negative.
+Project Goal: build a resource-efficient transformer-based model to classify movie reviews as positive/negative.
 
 # Key Features
 ✅ Custom-trained on IMDb dataset tokenizer
