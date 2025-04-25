@@ -51,7 +51,7 @@ movie-reviews/
 
 │
 
-├── models/             # Models weights and tokenizer
+├── models/             # Models weights and tokenizer [Google Drive](https://drive.google.com/drive/folders/1-oC42w-uOL5_a9d-mrrXHHJ1Pr8fka8j?usp=sharing)
 
 |
 
