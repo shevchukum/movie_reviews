@@ -39,13 +39,15 @@ movie-reviews/
 
 ├── notebooks/          # Jupyter notebooks
 
-│   ├── 01_data_preprocessing.ipynb    # Cleaning & tokenization
+│   ├── 01_tokenizer.ipynb             # Training tokenizer
 
-│   ├── 02_MLM_training.ipynb          # Pretraining MLM
+│   ├── 02_data_preprocessing.ipynb    # Cleaning & tokenization
 
-│   ├── 03_classifier_training.ipynb   # Fine-tuning classifier
+│   ├── 03_MLM_training.ipynb          # Pretraining MLM
 
-│   └── 04_evaluation.ipynb            # Cross-dataset tests
+│   ├── 04_classifier_training.ipynb   # Fine-tuning classifier
+
+│   └── 05_evaluation.ipynb            # Cross-dataset tests
 
 │
 
