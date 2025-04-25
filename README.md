@@ -25,7 +25,7 @@ Lowered performance on other datasets (see Report)
 movie-reviews/
 │
 
-├── data/               # Datasets (process ready)
+├── data/              [Google Drive](https://drive.google.com/drive/folders/1btauwCy79V9HXDOJIXMhpNxeUAUOLWyQ?usp=sharing)
 
 │   ├── IMDb/           # Training and IMDb test data
 
@@ -52,6 +52,8 @@ movie-reviews/
 │
 
 ├── models/             # Models weights
+
+|
 
 ├── README.md           
 
