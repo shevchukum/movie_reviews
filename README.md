@@ -51,7 +51,7 @@ movie-reviews/
 
 │
 
-├── models/             # Models weights
+├── models/             # Models weights and tokenizer
 
 |
 
