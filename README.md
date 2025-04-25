@@ -73,12 +73,12 @@ movie-reviews/
 
 05_evaluation.ipynb	-> Evaluate on all test datasets	-> CPU/GPU
 
-# Accuracy Table:
+# Test results table:
 
-IMDb (Test)	-> 86.1%
+IMDb (Test)	-> acc 86.1%
 
-SST-2	      -> 44.5%
+SST-2	      -> acc 44.5%
 
-Amazon	    -> 50.8%
+Amazon	    -> acc 50.8%
 
-MB          -> 77.2%
+MB          -> acc 77.2%
