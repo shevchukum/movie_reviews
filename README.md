@@ -25,7 +25,7 @@ Lowered performance on other datasets (see Report)
 movie-reviews/
 │
 
-├── data/               # Datasets (raw/processed)
+├── data/               # Datasets (process ready)
 
 │   ├── IMDb/           # Training and IMDb test data
 
