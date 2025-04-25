@@ -61,24 +61,17 @@ movie-reviews/
 
 └── report.pdf          # Detailed methodology/results
 
-# Quick Start
-1. Installation
-   
-git clone https://github.com/shevchukum/movie-reviews.git
+# Pipeline
 
-cd movie-reviews
+01_tokenizer.ipynb -> Train tokenizer  -> CPU
 
-pip install -r requirements.txt
+02_data_preprocessing.ipynb -> Clean data and prepare for training / testing -> CPU
 
-2. Run the Pipeline
-   
-01_data_preprocessing.ipynb	-> Clean data & train tokenizer	-> CPU
+03_MLM_training.ipynb -> Train MLM	-> GPU
 
-02_MLM_training.ipynb	Pretrain -> MLM	-> GPU
+04_classifier_training.ipynb	-> Fine-tune classifier	-> GPU
 
-03_classifier_training.ipynb	-> Fine-tune classifier	-> GPU
-
-04_evaluation.ipynb	-> Evaluate on all datasets	-> CPU/GPU
+05_evaluation.ipynb	-> Evaluate on all test datasets	-> CPU/GPU
 
 # Accuracy Table:
 
